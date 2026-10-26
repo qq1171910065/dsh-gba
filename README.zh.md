@@ -43,7 +43,18 @@
 
 ### 从插件市场
 
-如果某个市场索引收录了 `dsh-gba`，打开 **插件 → Discover**，添加索引地址，在列表里安装。
+本插件自己发布了一个市场索引。在 Harness 里：
+
+1. **插件 → 插件页 → 实验性插件旁的 More**，打开 **Custom plugin markets**，出现 **Discover** 页签。
+2. 添加索引地址：
+
+   ```
+   https://qq1171910065.github.io/dsh-gba/index.json
+   ```
+
+3. 在列表里找到 **GBA 游戏** 安装。
+
+索引钉死了 commit，装到的就是测试过的那一份。
 
 ### 从文件夹
 

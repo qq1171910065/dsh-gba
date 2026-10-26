@@ -51,10 +51,21 @@ you switch browsers.
 This is a **persistent Harness bundle**: it installs into a profile, survives restarts, and is
 available in every session of that profile.
 
-### From a plugin market
+### From the plugin market
 
-If a market index lists `dsh-gba`, open **Plugins → Discover**, add the index URL, and install
-it there.
+This bundle publishes its own market index. In the Harness:
+
+1. **Plugins → Plugins → More** beside *Experimental plugins*, and switch on
+   **Custom plugin markets**. A **Discover** tab appears.
+2. Add this index source:
+
+   ```
+   https://qq1171910065.github.io/dsh-gba/index.json
+   ```
+
+3. Find **GBA games** and install it.
+
+The index pins a commit, so what you install is exactly what was tested.
 
 ### From a folder
 
