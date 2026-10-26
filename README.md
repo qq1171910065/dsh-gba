@@ -8,6 +8,8 @@ floating window that stays on screen while you keep working.
 
 English · [简体中文](README.zh.md)
 
+![The library panel](docs/screenshot-library.png)
+
 ## Why this exists
 
 Retro emulators usually live in their own tab, which means leaving whatever you were doing.
@@ -38,7 +40,11 @@ you switch browsers.
 - **Looks like the Harness.** Built from the theme's own tokens and the Dialog/Button
   primitives — no hard-coded colours, no separate design language.
 
-<!-- Screenshots land here once captured; see docs/README.md for the three files. -->
+| A game's page | The floating window |
+| --- | --- |
+| ![Game page](docs/screenshot-detail.png) | ![Floating window](docs/screenshot-window.png) |
+
+*The game keeps running in a window above every column; its chrome only appears on hover.*
 
 ## Install
 

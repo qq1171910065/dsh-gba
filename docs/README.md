@@ -1,20 +1,28 @@
 # Screenshots
 
-The READMEs reference three images. Drop them here with these exact names:
+Screenshots used by the READMEs.
 
-| File | What it should show |
+| File | Shows |
 | --- | --- |
-| `screenshot-library.png` | The panel on the **All** tab: the heading with *ROM folders* / *Add ROM*, the tab bar, the search field and a few library rows with covers and group chips. |
-| `screenshot-detail.png` | A game's own page: the crumb, the title row with the Save Center button, the About block with the big Play button, then the control grid and the group chips. |
-| `screenshot-window.png` | The floating window mid-game, with the toolbar hovered so the transport row, the opacity slider and the resize corner are visible. |
+| `screenshot-library.png` | The panel on the **All** tab: heading with *ROM folders* / *Add ROM*, the tab bar, the search field, library rows. |
+| `screenshot-detail.png` | A game's own page: the crumb, the title row with the Save Center, the description block with the big Play button, the control grid and the group chips. |
+| `screenshot-window.png` | The floating window with its toolbar showing. |
 
-Guidelines:
+The committed files were cropped from real screenshots of the panel; there is no capture
+script, since that needs a live Harness session.
 
-- **2× scale** (a 1440-wide window captured at 2880 px, or a 720-wide panel at 1440 px) so the
-  images stay sharp on HiDPI displays.
-- **PNG**, cropped to the relevant area, no window chrome or desktop behind it.
-- Use the dark theme — that is what the panel is styled for.
-- Keep each file under ~400 KB; three screenshots should not outweigh the code.
+To redo them by hand:
 
-Any game works for the detail and window shots. Please avoid commercial titles in the
-screenshots so the images match what the bundle actually ships.
+1. Run the Harness at 1217×820 or larger, light theme (the panel is theme-neutral but the
+   screenshots happen to be light).
+2. Capture the window, then crop away the OS title bar at the top and the sidebar's account
+   block at the bottom — those carry a balance and version badge that do not belong in a
+   screenshot.
+3. Save as PNG with a 1 px `#e2e6ea` border so the white panel does not merge into GitHub's
+   background.
+4. Keep each file under ~150 KB.
+
+The window shot is simply the floating player cropped out of the library screenshot with a
+14 px margin so its drop shadow survives.
+
+Please avoid commercial titles in these images so they match what the bundle actually ships.

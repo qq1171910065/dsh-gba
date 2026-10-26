@@ -7,6 +7,8 @@
 
 [English](README.md) · 简体中文
 
+![游戏库面板](docs/screenshot-library.png)
+
 ## 为什么做这个
 
 模拟器通常独占一个标签页，想玩就得放下手上的事。这台住在 Harness **里面**：面板就是浏览器和设置
@@ -29,7 +31,11 @@
   刷新、重启、换会话都还在。
 - **看着像 Harness。** 全部用主题 token 和 Dialog/Button 原语搭，没有硬编码颜色，没有另一套设计语言。
 
-<!-- 截图待补；三张图的规格见 docs/README.md。 -->
+| 详情页 | 悬浮窗 |
+| --- | --- |
+| ![详情页](docs/screenshot-detail.png) | ![悬浮窗](docs/screenshot-window.png) |
+
+*游戏在所有栏上方的小窗口里继续跑，鼠标移上去才显示界面。*
 
 ## 安装
 
