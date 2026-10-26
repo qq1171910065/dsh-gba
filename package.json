@@ -46,7 +46,8 @@
     "README.zh.md",
     "LICENSE",
     "THIRD_PARTY_NOTICES.md",
-    "docs/*.png"
+    "docs/*.png",
+    "docs/index.json"
   ],
   "dsh": {
     "bundle": {
