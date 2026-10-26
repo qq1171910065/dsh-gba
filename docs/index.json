@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "title": {
+    "en": "dsh-gba",
+    "zh": "dsh-gba 插件源"
+  },
+  "description": {
+    "en": "Play Game Boy Advance inside DeepSeek Harness: an online store of 245 community games plus your own cartridges, in a floating player window.",
+    "zh": "在 DeepSeek Harness 里玩 Game Boy Advance：245 款在线社区作品随点随玩，也能导入自己的卡带。"
+  },
+  "metadata": {
+    "categories": {
+      "gaming": {
+        "title": {
+          "en": "Gaming",
+          "zh": "游戏"
+        }
+      }
+    },
+    "labels": {
+      "emulator": {
+        "title": {
+          "en": "Emulator",
+          "zh": "模拟器"
+        }
+      },
+      "web-ui": {
+        "title": {
+          "en": "Web UI",
+          "zh": "Web 界面"
+        }
+      }
+    },
+    "sortKeys": {
+      "stars": {
+        "title": {
+          "en": "Stars",
+          "zh": "星标"
+        },
+        "order": "desc"
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-gba",
+      "title": {
+        "en": "GBA games",
+        "zh": "GBA 游戏"
+      },
+      "description": {
+        "en": "Play Game Boy Advance inside DeepSeek Harness: a 245-title online store of community homebrew that downloads and starts on one click, plus your own .gba cartridges, one floating player window with hover-only chrome, opacity control and a Ctrl+Q boss key, per-game pages with rebindable WASD controls, groups, battery saves and save states.",
+        "zh": "在 Harness 里玩 Game Boy Advance：245 款在线商城作品随点随玩，也可导入自己的卡带；一个悬浮窗、可改键、Ctrl+Q 老板键、存档与即时存档。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkdCQSBnYW1lcGFkIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYm9keSIgeDE9IjAiIHkxPSIwIiB4Mj0iMCIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM0YTViZmYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMmEzNGI4Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB4PSI2IiB5PSIxOCIgd2lkdGg9IjUyIiBoZWlnaHQ9IjMwIiByeD0iMTUiIGZpbGw9InVybCgjYm9keSkiLz4KICA8cmVjdCB4PSIxNCIgeT0iMjYiIHdpZHRoPSI2IiBoZWlnaHQ9IjE2IiByeD0iMiIgZmlsbD0iI2ZmZmZmZiIgb3BhY2l0eT0iMC45MiIvPgogIDxyZWN0IHg9IjkiIHk9IjMxIiB3aWR0aD0iMTYiIGhlaWdodD0iNiIgcng9IjIiIGZpbGw9IiNmZmZmZmYiIG9wYWNpdHk9IjAuOTIiLz4KICA8Y2lyY2xlIGN4PSI0MiIgY3k9IjMwIiByPSI0LjIiIGZpbGw9IiNmZmZmZmYiIG9wYWNpdHk9IjAuOTIiLz4KICA8Y2lyY2xlIGN4PSI0OSIgY3k9IjM2IiByPSI0LjIiIGZpbGw9IiNmZmZmZmYiIG9wYWNpdHk9IjAuOTIiLz4KICA8cmVjdCB4PSIyOSIgeT0iMjQiIHdpZHRoPSI2IiBoZWlnaHQ9IjMiIHJ4PSIxLjUiIGZpbGw9IiNmZmZmZmYiIG9wYWNpdHk9IjAuNTUiLz4KPC9zdmc+Cg==",
+      "author": "heyk",
+      "homepage": "https://github.com/qq1171910065/dsh-gba#readme",
+      "repository": {
+        "url": "https://github.com/qq1171910065/dsh-gba"
+      },
+      "metadata": {
+        "category": "gaming",
+        "keywords": [
+          "gba",
+          "game boy advance",
+          "emulator",
+          "mgba",
+          "games",
+          "save state"
+        ],
+        "labels": [
+          "emulator",
+          "web-ui"
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.10.0",
+          "publishTimestamp": 1792983066,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/qq1171910065/dsh-gba",
+            "commit": "0eb0993f2476114ad320251fbfab3f89a8013931"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0"
+          }
+        }
+      ]
+    }
+  ]
+}
