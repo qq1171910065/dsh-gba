@@ -76,11 +76,11 @@
       "versions": [
         {
           "version": "1.10.0",
-          "publishTimestamp": 1792983066,
+          "publishTimestamp": 1792983428,
           "source": {
             "type": "git",
             "url": "https://github.com/qq1171910065/dsh-gba",
-            "commit": "0eb0993f2476114ad320251fbfab3f89a8013931"
+            "commit": "24bfb22eadcb2b7cbaf278b5acb5b31c575c3a11"
           },
           "engines": {
             "dsh": ">=0.2.1-0 <0.3.0"
