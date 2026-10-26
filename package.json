@@ -1,0 +1,60 @@
+{
+  "name": "dsh-gba",
+  "version": "1.10.0",
+  "description": "Play Game Boy Advance inside DeepSeek Harness: a 245-title online store of community homebrew that downloads and starts on one click, plus your own .gba cartridges, one floating player window with hover-only chrome, opacity control and a Ctrl+Q boss key, per-game pages with rebindable WASD controls, groups, battery saves and save states.",
+  "keywords": [
+    "dsh-plugin",
+    "gba",
+    "game-boy-advance",
+    "emulator",
+    "mgba"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "heyk",
+    "url": "https://github.com/qq1171910065"
+  },
+  "homepage": "https://github.com/qq1171910065/dsh-gba#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qq1171910065/dsh-gba.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qq1171910065/dsh-gba/issues"
+  },
+  "engines": {
+    "dsh": ">=0.2.1-0 <0.3.0"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "catalog.json",
+    "store.json",
+    "core/mgba.js",
+    "core/mgba.wasm",
+    "README.md",
+    "README.zh.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "docs/*.png"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}

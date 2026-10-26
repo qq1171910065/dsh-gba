@@ -1,0 +1,6 @@
+# dsh-gba bundle patch: one Host row beside the Web profile.
+# The row name resolves from the profile's own node_modules, where
+# `plugin_manager install_bundle` links this package.
+- insert:
+    - id: dsh-gba
+      name: dsh-gba

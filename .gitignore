@@ -1,0 +1,24 @@
+# Dependencies — this bundle has none, but a checkout may pick some up.
+node_modules/
+
+# Build and packaging output
+*.tgz
+*.zip
+dist/
+*.log
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Local scratch: test homes, probe pages, throwaway profiles
+.tmp/
+test-home/
+*.bak
+*.bak-*
+
+# Keep the docs folder's guidance, drop cached probe output
+!docs/

@@ -1,0 +1,7 @@
+# Normalise line endings so a Windows checkout and a Linux CI see the same bytes.
+* text=auto eol=lf
+
+# The WASM core is binary and must never be touched.
+*.wasm binary
+*.png binary
+*.jpg binary
